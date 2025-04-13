@@ -59,7 +59,6 @@ function createIconButton(tweetUrl) {
     });
   }
   
-  // Observe page for new tweets
   const observer = new MutationObserver(injectButtons);
   observer.observe(document.body, { childList: true, subtree: true });
   injectButtons();
