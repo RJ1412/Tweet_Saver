@@ -1,0 +1,19 @@
+{
+  "name": "save_tweet_to_notion",
+  "version": "1.0.0",
+  "description": "save tweet to notion",
+  "main": "background.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RJ1412/Tweet_Saver.git"
+  },
+  "author": "RAHUL",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RJ1412/Tweet_Saver/issues"
+  },
+  "homepage": "https://github.com/RJ1412/Tweet_Saver#readme"
+}
