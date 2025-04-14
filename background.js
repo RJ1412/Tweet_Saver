@@ -70,6 +70,6 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
         });
     });
 
-    return true; // Important to keep message channel open
+    return true; 
   }
 });
