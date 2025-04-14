@@ -1,9 +1,53 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <style>
+      body {
+        font-family: sans-serif;
+        min-width: 250px;
+        padding: 20px;
+      }
+
+      input {
+        width: 100%;
+        margin-bottom: 10px;
+        padding: 8px;
+        font-size: 14px;
+      }
+
+      button {
+        width: 100%;
+        padding: 8px;
+        font-size: 14px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: #0056b3;
+      }
+
+      .status {
+        margin-top: 10px;
+        font-size: 12px;
+        color: green;
+      }
+    </style>
+  </head>
   <body>
-    <input id="pageId" placeholder="Notion Page ID" />
-    <input id="token" type="password" placeholder="Integration Token" />
+    <label for="pageId">Notion Page ID:</label>
+    <input id="pageId" placeholder="Enter Notion Page ID" />
+
+    <label for="token">Integration Token:</label>
+    <input id="token" type="password" placeholder="Enter Integration Token" />
+
     <button id="saveBtn">Save</button>
+
+    <div class="status" id="statusMsg"></div>
+
     <script src="popup.js"></script>
   </body>
 </html>
