@@ -2,8 +2,6 @@
 
 HOW TO USE THIS EXTENSION
 
-Installation: npm i save_tweet_to_notion
-
 Create a Notion Integration
 Go to Notion Integrations and create a new internal integration.
 
