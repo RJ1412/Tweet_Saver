@@ -1,5 +1,7 @@
 # Tweet_Saver
 
+DEMO:
+![](https://github.com/RJ1412/Tweet_Saver/blob/main/demo.gif)
 HOW TO USE THIS EXTENSION
 
 Create a Notion Integration
@@ -17,3 +19,5 @@ Click on the extension icon in Chrome.
 Paste your Integration Token and Page ID into the fields.
 
 Hit Save, and you're good to go!
+
+
